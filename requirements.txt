@@ -1,0 +1,2 @@
+# Legacy pip compatibility. Generated from uv.lock.
+-r requirements.lock.txt
