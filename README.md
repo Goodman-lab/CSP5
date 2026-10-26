@@ -14,7 +14,7 @@ export PYTHONPATH="$PWD/src:$PYTHONPATH"
 ```
 
 ## Zenodo data
-The accompanying Zenodo record ([https://zenodo.org/records/19486118](https://zenodo.org/records/19486118)) contains model files and the version of the NMRexp dataset used in this work. To download the data and extract it appropriately, run:
+The accompanying Zenodo record ([https://zenodo.org/records/19486117](https://zenodo.org/records/19486117)) contains model files and the version of the NMRexp dataset used in this work. To download the data and extract it appropriately, run:
 
 ```bash
 ./scripts/download_zenodo_data.sh

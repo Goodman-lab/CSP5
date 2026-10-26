@@ -53,8 +53,8 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-URL="https://zenodo.org/api/records/19486118/files/CSP5_data.tar.gz/content"
-EXPECTED_MD5="86e1c0986ac8ebd23e3281a7497e1142"
+URL="https://zenodo.org/api/records/23668018/files/CSP5_data.tar.gz/content"
+EXPECTED_MD5="d949ad234aca7bde18e7df4f3bb6e89d"
 ARCHIVE_DIR=$(cd "$(dirname "$ARCHIVE")" && pwd)
 ARCHIVE_PATH="$ARCHIVE_DIR/$(basename "$ARCHIVE")"
 mkdir -p "$ARCHIVE_DIR"
